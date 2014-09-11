@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4E150EE19B8C4B600BF3662 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E150ED19B8C4B600BF3662 /* TableViewCell.m */; };
+		A4E150F119B8FF1400BF3662 /* DetalleController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E150F019B8FF1400BF3662 /* DetalleController.m */; };
+		A4E1513719BA63B000BF3662 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E1513619BA63B000BF3662 /* libsqlite3.dylib */; };
 		A4E7114419B627CA009F91AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E7114319B627CA009F91AE /* Foundation.framework */; };
 		A4E7114619B627CA009F91AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E7114519B627CA009F91AE /* CoreGraphics.framework */; };
 		A4E7114819B627CA009F91AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E7114719B627CA009F91AE /* UIKit.framework */; };
@@ -21,6 +24,10 @@
 		A4E7116519B627CA009F91AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E7114719B627CA009F91AE /* UIKit.framework */; };
 		A4E7116D19B627CA009F91AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4E7116B19B627CA009F91AE /* InfoPlist.strings */; };
 		A4E7116F19B627CA009F91AE /* SAPColasDeEntradaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E7116E19B627CA009F91AE /* SAPColasDeEntradaTests.m */; };
+		A4E7117A19B6332B009F91AE /* HistoricoController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E7117919B6332B009F91AE /* HistoricoController.m */; };
+		A4E7117D19B6336C009F91AE /* ConsultaWsController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E7117C19B6336C009F91AE /* ConsultaWsController.m */; };
+		A4E7118019B6394C009F91AE /* ConsultaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E7117F19B6394C009F91AE /* ConsultaViewController.m */; };
+		A4E7118319B63964009F91AE /* HistoricoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E7118219B63964009F91AE /* HistoricoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A4E150EC19B8C4B600BF3662 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewCell.h; path = ../TableViewCell.h; sourceTree = "<group>"; };
+		A4E150ED19B8C4B600BF3662 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewCell.m; path = ../TableViewCell.m; sourceTree = "<group>"; };
+		A4E150EF19B8FF1400BF3662 /* DetalleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalleController.h; sourceTree = "<group>"; };
+		A4E150F019B8FF1400BF3662 /* DetalleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalleController.m; sourceTree = "<group>"; };
+		A4E1513619BA63B000BF3662 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		A4E7114019B627CA009F91AE /* SAPColasDeEntrada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAPColasDeEntrada.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4E7114319B627CA009F91AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A4E7114519B627CA009F91AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +65,14 @@
 		A4E7116A19B627CA009F91AE /* SAPColasDeEntradaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SAPColasDeEntradaTests-Info.plist"; sourceTree = "<group>"; };
 		A4E7116C19B627CA009F91AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A4E7116E19B627CA009F91AE /* SAPColasDeEntradaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAPColasDeEntradaTests.m; sourceTree = "<group>"; };
+		A4E7117819B6332B009F91AE /* HistoricoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoricoController.h; sourceTree = "<group>"; };
+		A4E7117919B6332B009F91AE /* HistoricoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoricoController.m; sourceTree = "<group>"; };
+		A4E7117B19B6336C009F91AE /* ConsultaWsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsultaWsController.h; sourceTree = "<group>"; };
+		A4E7117C19B6336C009F91AE /* ConsultaWsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsultaWsController.m; sourceTree = "<group>"; };
+		A4E7117E19B6394C009F91AE /* ConsultaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsultaViewController.h; sourceTree = "<group>"; };
+		A4E7117F19B6394C009F91AE /* ConsultaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsultaViewController.m; sourceTree = "<group>"; };
+		A4E7118119B63964009F91AE /* HistoricoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoricoViewController.h; sourceTree = "<group>"; };
+		A4E7118219B63964009F91AE /* HistoricoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoricoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4E1513719BA63B000BF3662 /* libsqlite3.dylib in Frameworks */,
 				A4E7114619B627CA009F91AE /* CoreGraphics.framework in Frameworks */,
 				A4E7114819B627CA009F91AE /* UIKit.framework in Frameworks */,
 				A4E7114419B627CA009F91AE /* Foundation.framework in Frameworks */,
@@ -101,6 +122,7 @@
 		A4E7114219B627CA009F91AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A4E1513619BA63B000BF3662 /* libsqlite3.dylib */,
 				A4E7114319B627CA009F91AE /* Foundation.framework */,
 				A4E7114519B627CA009F91AE /* CoreGraphics.framework */,
 				A4E7114719B627CA009F91AE /* UIKit.framework */,
@@ -112,6 +134,8 @@
 		A4E7114919B627CA009F91AE /* SAPColasDeEntrada */ = {
 			isa = PBXGroup;
 			children = (
+				A4E150EC19B8C4B600BF3662 /* TableViewCell.h */,
+				A4E150ED19B8C4B600BF3662 /* TableViewCell.m */,
 				A4E7115219B627CA009F91AE /* AppDelegate.h */,
 				A4E7115319B627CA009F91AE /* AppDelegate.m */,
 				A4E7115519B627CA009F91AE /* Main.storyboard */,
@@ -119,6 +143,16 @@
 				A4E7115919B627CA009F91AE /* ViewController.m */,
 				A4E7115B19B627CA009F91AE /* Images.xcassets */,
 				A4E7114A19B627CA009F91AE /* Supporting Files */,
+				A4E7117819B6332B009F91AE /* HistoricoController.h */,
+				A4E7117919B6332B009F91AE /* HistoricoController.m */,
+				A4E7117B19B6336C009F91AE /* ConsultaWsController.h */,
+				A4E7117C19B6336C009F91AE /* ConsultaWsController.m */,
+				A4E7117E19B6394C009F91AE /* ConsultaViewController.h */,
+				A4E7117F19B6394C009F91AE /* ConsultaViewController.m */,
+				A4E7118119B63964009F91AE /* HistoricoViewController.h */,
+				A4E7118219B63964009F91AE /* HistoricoViewController.m */,
+				A4E150EF19B8FF1400BF3662 /* DetalleController.h */,
+				A4E150F019B8FF1400BF3662 /* DetalleController.m */,
 			);
 			path = SAPColasDeEntrada;
 			sourceTree = "<group>";
@@ -199,6 +233,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Omnilife;
 				TargetAttributes = {
+					A4E7113F19B627CA009F91AE = {
+						DevelopmentTeam = 29EDBYUN7A;
+					};
 					A4E7116019B627CA009F91AE = {
 						TestTargetID = A4E7113F19B627CA009F91AE;
 					};
@@ -249,9 +286,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4E150F119B8FF1400BF3662 /* DetalleController.m in Sources */,
+				A4E7117A19B6332B009F91AE /* HistoricoController.m in Sources */,
+				A4E7118019B6394C009F91AE /* ConsultaViewController.m in Sources */,
 				A4E7115A19B627CA009F91AE /* ViewController.m in Sources */,
 				A4E7115419B627CA009F91AE /* AppDelegate.m in Sources */,
+				A4E7117D19B6336C009F91AE /* ConsultaWsController.m in Sources */,
+				A4E150EE19B8C4B600BF3662 /* TableViewCell.m in Sources */,
 				A4E7115019B627CA009F91AE /* main.m in Sources */,
+				A4E7118319B63964009F91AE /* HistoricoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,9 +419,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SAPColasDeEntrada/SAPColasDeEntrada-Prefix.pch";
 				INFOPLIST_FILE = "SAPColasDeEntrada/SAPColasDeEntrada-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -389,9 +434,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SAPColasDeEntrada/SAPColasDeEntrada-Prefix.pch";
 				INFOPLIST_FILE = "SAPColasDeEntrada/SAPColasDeEntrada-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +503,7 @@
 				A4E7117419B627CA009F91AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4E7117519B627CA009F91AE /* Build configuration list for PBXNativeTarget "SAPColasDeEntradaTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +512,7 @@
 				A4E7117719B627CA009F91AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

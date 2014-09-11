@@ -11,5 +11,6 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) NSString *strCliente, *strCola, *strID, *strDestino, *strNumero, *strEstatus, *strFecha, *strHora, *strTxtError, *strTxtID, *strMes, *strAnio;
 
 @end
